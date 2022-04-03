@@ -20,7 +20,7 @@ const HomeScreen = () => {
     axios
       .request({
         method: "post",
-        url: `https://maps.googleapis.com/maps/api/place/autocomplete/json?key=${"AIzaSyDl1KxvHH56fwm805MTZc0KQLvRxviylKs"}&input=${searchKeyword}`,
+        url: `https://maps.googleapis.com/maps/api/place/autocomplete/json?key=${"AIzaSyCe39bVisvB6ravzHefwr2CUK-e7xHzcEQ"}&input=${searchKeyword}`,
       })
       .then(response => {
         console.log(response.data);
